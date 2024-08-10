@@ -201,6 +201,7 @@ a {
 .container {
     max-width: 1296px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 @media (max-width:767px) {
@@ -384,15 +385,13 @@ h1 {
 }
 
 .contact-icons {
-    width: 36px;
-    height: 36px;
+    font-size: 36px;
     margin-right: 20px;
 }
 
 @media (max-width:767px) {
     .contact-icons {
-        width: 18px;
-        height: 18px;
+        font-size: 18px;
         margin-right: 10px;
     }
 }
