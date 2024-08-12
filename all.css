@@ -385,13 +385,15 @@ h1 {
 }
 
 .contact-icons {
-    font-size: 36px;
+    width: 36px;
+    height: 36px;
     margin-right: 20px;
 }
 
 @media (max-width:767px) {
     .contact-icons {
-        font-size: 18px;
+        width: 18px;
+        height: 18px;
         margin-right: 10px;
     }
 }
